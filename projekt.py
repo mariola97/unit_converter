@@ -5,9 +5,9 @@ window.title("Lenght Converter")
 window.geometry("500x300+550+355")
 def lengthconv():
      
-    km = float(e2_value.get())*1000
-    mm = float(e2_value.get())/1000
-    cm = float(e2_value.get())/100
+    km = float(e2_value.get())/1000
+    mm = float(e2_value.get())*1000
+    cm = float(e2_value.get())*100
     mile=float(e2_value.get())*0.00062
     yard=float(e2_value.get())*1.094
     inch=float(e2_value.get())*39.37 
